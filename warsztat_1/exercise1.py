@@ -1,7 +1,7 @@
 from random import randint
 
 # chosing a random number from 1 to 100
-numbers = randint(1, 101)
+numbers = randint(1, 100)
 
 guessed = False
 
