@@ -1,12 +1,10 @@
 from random import randint
 
-# chosing a random number from 1 to 100
+
 numbers = randint(1, 100)
 
 guessed = False
 
-# checking if user wrote a number
-# and if this number is the number our randint option chose
 
 while not guessed:
     guess = input("Guess the number: ")
