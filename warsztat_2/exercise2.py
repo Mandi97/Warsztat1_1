@@ -1,5 +1,6 @@
 import random
 
+# Lotto simulator
 
 print("Pick six numbers.")
 idx = 0
@@ -14,11 +15,11 @@ while idx < 6:
         print("You picked a number that already exist or the number is not 1 - 49!\nTry again")
 
 
-print(list_of_numbers)
+print(f'Your numbers: {list_of_numbers}')
 
 lotto = random.sample(range(1, 50), 6)
 list.sort(lotto)
-print(lotto)
+print(f'Lotto numbers: {lotto}')
 
 hit_numbers = sum(el in lotto for el in list_of_numbers)
 if hit_numbers < 3:
