@@ -1,7 +1,7 @@
-print("Pomyśl liczbę od 0 do 1000, a ja ją zgadnę w max. 10 próbach")
+print("Pomyśl liczbę od 1 do 1000, a ja ją zgadnę w max. 10 próbach")
 
-min = 1
-max = 1001
+min = 0
+max = 1000
 
 idx = 0
 while idx < 10:
